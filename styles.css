@@ -1,0 +1,383 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 8%;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(90, 89, 89, 0.61);
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+span{
+    color:rgb(36, 198, 219);
+}
+
+h1{
+    font-size: 3rem;
+    color: white;
+}
+
+ul{
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+a{
+    color: white;
+    font-weight: 550;
+}
+
+a:hover{
+    color: rgb(36, 198, 219);
+    border-bottom: 2px solid rgb(36, 198, 219);
+}
+
+.skills h2{
+    color: white;
+}
+
+.skills h2:hover{
+    color: rgb(36, 198, 219);
+    cursor: pointer; 
+}
+
+.activo{
+    color: rgb(36, 198, 219);
+    border-bottom: 2px solid rgb(36, 198, 219);
+}
+
+section{
+    padding: 3rem 5%;
+
+}
+.proyectos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5rem;
+
+}
+
+.img{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+   
+}
+
+img{
+    height: 180px;
+    border-radius: 2rem;
+    width: 100%;
+}
+
+.article-proyect{
+    width: 100%;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 1.5rem rgb(36, 198, 219);
+}
+
+h1{
+    padding: 3rem 5%;
+    color: white;
+    font-weight: 800;
+}
+
+article p{
+    line-height: 1.5;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+article h2{
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: -1rem;
+    margin-top: 1rem;
+   display: block;
+   text-align: center;
+}
+
+article h2 span{
+    color: white;
+    background-color:  black;
+    border-radius: 2rem;
+    padding: 0.1rem;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 2rem;
+    gap: 5rem;
+}
+
+.article-contacto{
+    height: 22rem;
+    width: 100%;
+    border-radius: 2rem;
+    border: 2px solid rgb(36, 198, 219);
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+section.home{
+    display: flex;
+    gap: 0.4rem;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+.article-home{
+    display: flex;
+    justify-content: center;
+}
+
+.resume{
+    display: flex;
+    justify-content: left;
+    align-items: center; 
+    gap: 20rem;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;   
+    gap: 2rem;
+}
+
+.about p{
+    width: 20rem;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;   
+    gap: 2rem;
+    width: 40rem;
+}
+
+.skills-article{
+    border-radius: 3%;
+    box-shadow: 0 0 2rem rgb(36, 198, 219);; ;
+    justify-content: center;
+    width: 100%;
+}
+
+.skills-article-element{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0rem;outline:none;
+    vertical-align: top;
+    display: flex;
+    justify-content:stretch;
+    align-items: center; 
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+.skills-article-element p{
+    margin-top: -2.5rem;
+    margin-bottom: 2rem;
+}
+
+.skills-article-element h3{
+    margin-bottom: 1rem;
+}
+
+.skills-article div{
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 20rem;
+}
+
+.img-home{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.content{
+    width: 50%;
+}
+
+article .img-home img{
+    border-radius: 50%;
+    box-shadow: 0 0 2rem rgb(36, 198, 219);; ;
+    height: 420px;
+    width: 320px;
+}
+.article-home h1{
+    font-size: 6rem;
+    text-align: center;
+}
+.article-home p{
+    font-size: 1.2rem;
+}
+
+.icono{
+    width: 50%;
+    height: auto;
+    justify-self: center;
+    padding: 5%;
+}
+
+footer{
+    background-color: white;
+    color:black;
+    padding: 2rem;
+    bottom:0;
+}
+
+footer p{
+    color: black;
+    text-align: center;
+    padding: 0.6rem;
+} 
+
+footer ul li a{
+    color: black;
+    font-size: 1rem;
+
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media(max-width){
+    section{
+    padding: 2rem 2%;
+    }}
+    
+@media(max-width:860px){
+   ul li a{
+   font-size: 1.3rem;  
+    }}
+@media(max-width:600px){
+    .menu{
+    flex-direction: column;   
+    padding: 2rem 0;   
+    }}
+
+    @media(max-width: 1080px){
+        .proyectos{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 5rem;
+        }
+    }
+    
+@media(max-width:500px){
+        .proyectos{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem 1%;
+            width: 100%;
+        }
+    }
+       
+@media(max-width:800px){
+        .resume{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem 1%;
+            width: 100%;
+    
+        }
+    }
+
+@media(max-width: 1360px){
+    h1{
+       font-size: 2rem !important;
+       margin-bottom: -2rem;
+    }
+}
+
+@media(max-width: 1040px){
+   .article-home{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1%;
+    width: 100%;
+   }
+   h1{
+    text-align: center;
+   }
+   article .img-home img{
+    height:250px;
+    width: 200px;
+
+}
+.content{
+    width: 100%;
+    text-align: left;
+}
+.content p {
+    text-align: left;
+}
+button{
+    font-size: 1rem;
+}
+.article-proyect{
+    width: 90%;
+}
+article h2{
+    font-size: 1.3rem;
+}
+
+}
+
+@media(max-width:700px){
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-radius: 2rem;
+        gap: 5rem;
+    }
+}
+
