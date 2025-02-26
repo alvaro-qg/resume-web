@@ -93,6 +93,11 @@ img{
     padding: 2rem;
     border-radius: 2rem;
     box-shadow: 0 0 1.5rem rgb(36, 198, 219);
+    text-align: center;
+}
+
+.article-proyect a{
+    color: rgb(36, 198, 219);
 }
 
 h1{
@@ -323,8 +328,17 @@ footer ul{
             align-items: center;
             padding: 2rem 1%;
             width: 100%;
-    
         }
+
+        .skills{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem 1%;
+            width: 100%;
+        }
+
     }
 
 @media(max-width: 1360px){
